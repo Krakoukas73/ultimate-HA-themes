@@ -15,6 +15,15 @@
 ![image](https://github.com/user-attachments/assets/571b4050-d4f2-4f19-96cc-46220c699879)
 
 
+<h1>Western</h1>
+
+![image](https://github.com/user-attachments/assets/95c53726-6335-491a-a004-7479a9d28984)
+
+![image](https://github.com/user-attachments/assets/29123f22-757a-439c-b67a-f7fad59eee2c)
+
+![image](https://github.com/user-attachments/assets/9342688e-8cbf-4868-80ff-b18ecdda8c0a)
+
+
 
 
 <h1>Dark theme</h1>
