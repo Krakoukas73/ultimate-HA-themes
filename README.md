@@ -5,7 +5,7 @@
 
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
-![HA thèmes Dark et Light copy](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/b437a34b-d784-4520-90be-8a67946a5cb5)
+
 
 
 <h1>Dark theme</h1>
@@ -17,7 +17,6 @@
 
 <h1>Light clean theme</h1>
 
-![light-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/2fec465a-5622-470b-b730-8564f7ad7637)
 
 ![light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/804dbea8-0226-4629-9f52-9c1c5b849b02)
 
