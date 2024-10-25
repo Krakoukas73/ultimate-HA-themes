@@ -17,8 +17,18 @@
 
 <h1>Light clean theme</h1>
 
-
 ![light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/804dbea8-0226-4629-9f52-9c1c5b849b02)
+
+
+<h1>Stone Age</h1>
+
+![image](https://github.com/user-attachments/assets/8da40694-3881-44d3-8c6f-0f852b771b97)
+
+![image](https://github.com/user-attachments/assets/33aac5fd-64c2-4372-b0f6-1f1cf2433bde)
+
+![image](https://github.com/user-attachments/assets/571b4050-d4f2-4f19-96cc-46220c699879)
+
+
 
 
 <h1>Warcraft & Diablo overloaded theme</h1>
