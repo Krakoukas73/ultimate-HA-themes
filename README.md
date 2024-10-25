@@ -5,7 +5,29 @@
 
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
-![HA thèmes Dark et Light copy](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/b437a34b-d784-4520-90be-8a67946a5cb5)
+
+<h1>Stone Age</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
+
+![image](https://github.com/user-attachments/assets/8da40694-3881-44d3-8c6f-0f852b771b97)
+
+![image](https://github.com/user-attachments/assets/33aac5fd-64c2-4372-b0f6-1f1cf2433bde)
+
+![image](https://github.com/user-attachments/assets/571b4050-d4f2-4f19-96cc-46220c699879)
+
+
+<h1>Western</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
+
+![image](https://github.com/user-attachments/assets/95c53726-6335-491a-a004-7479a9d28984)
+
+![image](https://github.com/user-attachments/assets/29123f22-757a-439c-b67a-f7fad59eee2c)
+
+![image](https://github.com/user-attachments/assets/9342688e-8cbf-4868-80ff-b18ecdda8c0a)
+
+
 
 
 <h1>Dark theme</h1>
@@ -17,9 +39,9 @@
 
 <h1>Light clean theme</h1>
 
-![light-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/2fec465a-5622-470b-b730-8564f7ad7637)
-
 ![light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/804dbea8-0226-4629-9f52-9c1c5b849b02)
+
+
 
 
 <h1>Warcraft & Diablo overloaded theme</h1>
@@ -57,6 +79,8 @@ _Fully compatible and customisable with all card sizes and custom cards_
 
 
 <h1>Glassmorphism theme</h1>
+
+_Great with animated background (GIF, MP4, MPEG...)_
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/de20202e-653a-4c92-9e26-73b7b67830e3)
 
