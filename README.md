@@ -8,6 +8,8 @@
 
 <h1>Stone Age</h1>
 
+_Fully compatible and customisable with all card sizes and custom cards_
+
 ![image](https://github.com/user-attachments/assets/8da40694-3881-44d3-8c6f-0f852b771b97)
 
 ![image](https://github.com/user-attachments/assets/33aac5fd-64c2-4372-b0f6-1f1cf2433bde)
@@ -16,6 +18,8 @@
 
 
 <h1>Western</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
 
 ![image](https://github.com/user-attachments/assets/95c53726-6335-491a-a004-7479a9d28984)
 
@@ -75,6 +79,8 @@ _Fully compatible and customisable with all card sizes and custom cards_
 
 
 <h1>Glassmorphism theme</h1>
+
+_Great with animated background (GIF, MP4, MPEG...)_
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/de20202e-653a-4c92-9e26-73b7b67830e3)
 
