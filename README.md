@@ -1,7 +1,7 @@
 ﻿﻿
 <h1>About</h1>
 
-<b>Various light & overloaded theme</b> for <a href="https://www.home-assistant.io/">Home Assistant</a> using CSS, SVG and awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
+<b>Various light & overloaded themes</b> for <a href="https://www.home-assistant.io/">Home Assistant</a> using CSS, SVG and awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
 
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
@@ -31,6 +31,8 @@ _Fully compatible and customisable with all card sizes and custom cards_
 
 
 <h1>Dark theme</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
 
 ![dark-main](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/5e753fad-43ba-4f17-9c52-ce8ac6e43185)
 
@@ -65,15 +67,21 @@ _Fully compatible and customisable with all card sizes and custom cards_
 
 <h1>Paper theme</h1>
 
+_Fully compatible and customisable with all card sizes and custom cards_
+
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/c2ce0e19-931d-4e1b-8833-1c9e06a303aa)
 
 
 <h1>Azure theme</h1>
 
+_Fully compatible and customisable with all card sizes and custom cards_
+
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/58311c47-0b7d-4ceb-a2e4-2a8d99a1e597)
 
 
 <h1>Algolia theme</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
 
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/8532d42d-60f9-46f5-973f-4bff423f8ca8)
 
@@ -89,10 +97,14 @@ _Great with animated background (GIF, MP4, MPEG...)_
 
 <h1>Spirale theme</h1>
 
+_Fully compatible and customisable with all card sizes and custom cards_
+
 ![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/803d2000-9e73-46d9-a3b3-ff72ed2f0c68)
 
 
 <h1>Rounded 1 theme</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
 
 ![image](https://github.com/user-attachments/assets/bd9d9447-5cbb-4eff-890d-e070ad0219a2)
 
@@ -100,6 +112,8 @@ _Great with animated background (GIF, MP4, MPEG...)_
 
 
 <h1>Rounded 2 theme</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
 
 ![image](https://github.com/user-attachments/assets/c88fb0fe-7e60-4d1e-bb01-531126051910)
 
