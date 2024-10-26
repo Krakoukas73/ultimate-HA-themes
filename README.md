@@ -28,6 +28,20 @@ _Fully compatible and customisable with all card sizes and custom cards_
 ![image](https://github.com/user-attachments/assets/9342688e-8cbf-4868-80ff-b18ecdda8c0a)
 
 
+<h1>Parchemin</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
+
+![image](https://github.com/user-attachments/assets/b5b28792-687d-4c59-9357-96ea832ce3da)
+
+![image](https://github.com/user-attachments/assets/4cbd5ef1-45d6-4471-9ae5-de45002e7c7c)
+
+![image](https://github.com/user-attachments/assets/3f683a5a-f9aa-4bc3-b247-93cdaa0b9325)
+
+![image](https://github.com/user-attachments/assets/19eb6c34-7939-4d10-8421-fd35b460f1c5)
+
+![image](https://github.com/user-attachments/assets/c78c3371-7597-46ef-a200-2468770096de)
+
 
 
 <h1>Dark theme</h1>
