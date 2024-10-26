@@ -42,6 +42,8 @@ _Fully compatible and customisable with all card sizes and custom cards_
 
 ![image](https://github.com/user-attachments/assets/c78c3371-7597-46ef-a200-2468770096de)
 
+![image](https://github.com/user-attachments/assets/f76baf24-090f-44db-96a5-2a23be073b94)
+
 
 
 <h1>Dark theme</h1>
