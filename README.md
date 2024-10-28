@@ -24,6 +24,8 @@ _Fully compatible and customisable with all card sizes and custom cards_
 
 ![image](https://github.com/user-attachments/assets/c60f098f-a909-42ed-b996-6931c907e364)
 
+![image](https://github.com/user-attachments/assets/c367298f-b327-4206-98f3-06d678d129b6)
+
 
 
 <h1>Stone Age</h1>
