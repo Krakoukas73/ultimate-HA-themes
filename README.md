@@ -6,6 +6,24 @@
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
 
+<h1>Metal Slug</h1>
+
+_Fully compatible and customisable with all card sizes and custom cards_
+
+![image](https://github.com/user-attachments/assets/3e120c62-b7c1-4408-b7e0-5598d8dbf4b6)
+
+![image](https://github.com/user-attachments/assets/e9a96bba-cbbe-4fcd-855e-3e4dd2394a7c)
+
+![image](https://github.com/user-attachments/assets/58b3b821-6579-4151-99be-9ec7384e9690)
+
+![image](https://github.com/user-attachments/assets/99cc6ebe-639d-450e-9947-1ac407d76fc9)
+
+![image](https://github.com/user-attachments/assets/50a64d43-a93f-4cde-8c8b-d8b51a87c8c1)
+
+![image](https://github.com/user-attachments/assets/a57ed09e-448e-4a74-90c7-80c87690f2c7)
+
+
+
 <h1>Stone Age</h1>
 
 _Fully compatible and customisable with all card sizes and custom cards_
