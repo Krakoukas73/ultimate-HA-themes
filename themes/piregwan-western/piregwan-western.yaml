@@ -100,7 +100,7 @@ DO NOT USE (customizations): &base
   sidebar-text-color: white
   sidebar-selected-background-color: transparent
   sidebar-selected-icon-color: var(--piregwan-red)
-  sidebar-selected-text-color: white
+  sidebar-selected-text-color: black
   app-drawer-width: 75px
   # States and Badges
   state-icon-color: white
@@ -389,7 +389,8 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 200;
 
           letter-spacing: 1.5px;
-          # text-shadow: 1px 1px 2px black;
+          
+          
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           color: white;
@@ -408,11 +409,15 @@ DO NOT USE (card-mod): &card-mod-css
           display: inline;
           padding: 0;
           margin: 15px 12px 15px 12px;
+
+          text-shadow: 0px 1px 0px #CCC;
         }
         #header .name {
             padding: 6px 20px; 
             width: 100%; 
         }
+        
+        
         
 
 
@@ -455,13 +460,14 @@ DO NOT USE (card-mod): &card-mod-css
           filter: drop-shadow(0 5px 2.5px rgba(0,0,0,0.70));
           # border-image: url('/local/themes/piregwan-western/board.png') 50 fill; 
           # border-width: 15px; 
-          border-image: url('/local/themes/piregwan-western/ui-button-big.png') 15 fill; 
-          border-width: 7px; 
+          border-image: url('/local/themes/piregwan-western/ui-button-big.png') 8 fill; 
+          border-width: 3.5px; 
           z-index: 1000; 
           margin-bottom: 50px;
           padding-top: 0px;
           padding-bottom: 10px;
           
+          text-shadow: 0px 1px 0px #AAA;
           
           
 
@@ -476,11 +482,11 @@ DO NOT USE (card-mod): &card-mod-css
           display: block;
           padding: 0;
           padding-top: 10px; 
-          max-height: 50px;
+          # max-height: 50px;
           filter: none !important;
         }
         h3 b {
-          font-size: 60px;
+          font-size: 55px;
           font-family: "Marlboro", Calibri ;
           text-transform: uppercase;
           filter: none !important;
@@ -493,14 +499,17 @@ DO NOT USE (card-mod): &card-mod-css
           filter: drop-shadow(0 5px 2.5px rgba(0,0,0,0.70));
           # border-image: url('/local/themes/piregwan-western/board.png') 50 fill; 
           # border-width: 15px; 
-          border-image: url('/local/themes/piregwan-western/ui-button-big.png') 15 fill; 
-          border-width: 7px; 
+          border-image: url('/local/themes/piregwan-western/ui-button-big-etoiles2.png') 8 fill; 
+          border-width: 3.5px; 
           z-index: 1000; 
-          margin-bottom: 50px;
-          padding-top: 0px;
-          padding-bottom: 80px;
+          
+          padding-top: 28px;
+          padding-bottom: 7px;
           padding-left: 30px;
           padding-right: 30px;
+          
+                    text-shadow: 0px 1px 0px #AAA;
+
           
         }
         ha-markdown-element > pre  {
@@ -555,27 +564,33 @@ DO NOT USE (card-mod): &card-mod-css
       text-transform: uppercase;
     }
     
-    a[aria-selected=true] paper-icon-item .item-text {
+    /* TITRES DE GAUCHE */
+    a paper-icon-item .item-text {
 
-          font-size: 28px;
+          font-size: 27px;
           font-weight: 500;
           text-transform: uppercase;
           font-family: "Marlboro", "Calibri", sans-serif ;
-          letter-spacing: -0.30px;
+          letter-spacing: -0.20px;
+          
+          text-shadow: 0px 1px 0px #AAA;
+          color: black;
+                              
+
     }
     
       
-    @-webkit-keyframes blink {
-      0% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0.5;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
+    # @-webkit-keyframes blink {
+      # 0% {
+        # opacity: 1;
+      # }
+      # 50% {
+        # opacity: 0.5;
+      # }
+      # 100% {
+        # opacity: 0;
+      # }
+    # }
     
     
     .menu {
@@ -600,22 +615,22 @@ DO NOT USE (card-mod): &card-mod-css
 
     
 
-    paper-icon-item:hover span,
-    paper-icon-item:hover ha-icon,
-    paper-icon-item:hover ha-svg-icon,
-    a[aria-selected=true] paper-icon-item span,
-    a[aria-selected=true] paper-icon-item ha-icon,
-    a[aria-selected=true] paper-icon-item ha-svg-icon {
-      color: var(--piregwan-red);
+    # paper-icon-item:hover span,
+    # paper-icon-item:hover ha-icon,
+    # paper-icon-item:hover ha-svg-icon,
+    # a[aria-selected=true] paper-icon-item span,
+    # a[aria-selected=true] paper-icon-item ha-icon,
+    # a[aria-selected=true] paper-icon-item ha-svg-icon {
+      # color: var(--piregwan-red);
       
-    }
+    # }
 
-    paper-icon-item:hover ha-icon,
-    paper-icon-item:hover ha-svg-icon,
-    a[aria-selected=true] paper-icon-item ha-icon,
-    a[aria-selected=true] paper-icon-item ha-svg-icon {
-      animation: blink 250ms infinite alternate
-    }
+    # paper-icon-item:hover ha-icon,
+    # paper-icon-item:hover ha-svg-icon,
+    # a[aria-selected=true] paper-icon-item ha-icon,
+    # a[aria-selected=true] paper-icon-item ha-svg-icon {
+      # animation: blink 250ms infinite alternate
+    # }
 
     paper-listbox a {
         margin-bottom: 12px;
@@ -640,14 +655,16 @@ DO NOT USE (card-mod): &card-mod-css
             box-sizing: border-box; 
             filter: drop-shadow(0 5px 2.5px rgba(0,0,0,0.70));
 
-            border-image: url('/local/themes/piregwan-western/ui-button-big.png') 15 fill; 
-            border-width: 7px; 
+            border-image: url('/local/themes/piregwan-western/ui-button-big.png') 8 fill; 
+            border-width: 3.5px; 
            
           z-index: 1000; 
           margin-bottom: 50px;
           padding-top: 0px;
           padding-bottom: 10px;
           
+                    text-shadow: 0px 1px 0px #AAA;
+                    
           
 
     }
