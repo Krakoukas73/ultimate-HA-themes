@@ -27,7 +27,6 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-alert-border-top-left-radius: "11px"
   piregwan-alert-border-top-right-radius: "11px"
   piregwan-alert-border: "5px solid  var(--piregwan-red)"
-  # piregwan-alert-background-image: "linear-gradient(180deg, rgba(255,0,0,1) 20%, rgba(255,0,0,0) 100%)"
 
   piregwan-font: Calibri
   
@@ -50,27 +49,18 @@ DO NOT USE (colors): &piregwan-colors
   weather-icon-windy-variant: url("/local/themes/piregwan-metal-slug/windy-variant.svg")
   weather-icon-exceptional: url("/local/themes/piregwan-metal-slug/exceptional.svg")  
 
-
-  
-  
-  
-
 DO NOT USE (customizations): &base 
 
   lovelace-background: linear-gradient(to right, var(--piregwan-background-general) 1%, transparent 15%),
                        linear-gradient(to left, var(--piregwan-background-general) 2%, transparent 18%),
                        url('/local/themes/piregwan-metal-slug/space-travel-1-crop.jpg') no-repeat fixed center / cover
   
-  
   state-inactive-color: rgba(0,255,0,1)
   state-color: rgba (0,0,255,1)
   
-
-  
-  
+  state-binary_sensor-connectivity-on-color: var(--piregwan-yellow)
   primary-background-color: var(--piregwan-background-general)
   secondary-background-color: var(--piregwan-card-button)
-  
   divider-color: transparent
   accent-color: var(--piregwan-orange)
   box-sizing: unset !important
@@ -89,10 +79,6 @@ DO NOT USE (customizations): &base
   ha-card-header-font-family: "Bebas Neue, var(--piregwan-font), sans-serif"
   ha-card-header-font-size: 32px
   ha-card-header-color: var(--piregwan-yellow)
-  
-
-
-
 
   # Text
   primary-text-color: var(--piregwan-text-gray)
@@ -196,78 +182,31 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-card-yaml: &card-mod-card |
     .: |
 
-        
         /* CYBERPUNK CARDS */
         
         ha-card {
-
             width: 100%;
             background-color: rgba(0,0,0,0); 
             border-style: solid;
             box-sizing: border-box; 
             filter: drop-shadow(1px 3px 2px rgba(44,41,31,1));
-            # background-image: none ; 
-            
-            /* TAILLE PROPORTIONNELLE DE LA BORDURE */
             border-image: url('/local/themes/piregwan-metal-slug/metal-vertical.png') 80 fill; 
-            /* LARGEUR DES BORDURES A RESPECTER SANS DEFORMATION */
             border-image-width: 50px;
-            /* MARGE INTERIEURE */
-            border-width: 33px 17px 25px 17px; 
-            text-shadow: 0px 3px 0px black !important;            
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        ha-card {
+            border-width: 38px 10px 25px 10px; 
+            text-shadow: 0px 3px 0px black ;            
             overflow: hidden;
-
         }
-        ha-card:before,
-        ha-card:after {
-            content: '';
-            display: block;
+        
+        ha-card:before {
             position: absolute;
-        }
-        
-        ha-card:after {
-            left: 0;
-            width: 4px;
+            content: '';
+            display: inline-block;
+            left: -30px;
+            width: 30px;
             height: 100%;
-            background: rgba(230,230,230,0.050);
-            z-index: 5;
-            animation: shiny 2.75s ease-in-out infinite;
-
+            background-color: rgba(255,255,255,0.55);
+            animation: shiny 5s ease-in-out infinite;            
         }
-        @-webkit-keyframes shiny {
-            0% { -webkit-transform: scale(0) rotate(0deg) ); opacity: 0; }
-            80% { -webkit-transform: scale(0) rotate(0deg) ; opacity: 0.5; }
-            81% { -webkit-transform: scale(4) rotate(0deg) ; opacity: 1; }
-            100% { -webkit-transform: scale(100) rotate(0deg) ; opacity: 0; }
-        }
-
-                
-                
-        
-        
-        
-        
-        
 
         ha-card.type-custom-apexcharts-card,
         ha-card.type-picture-entity,
@@ -276,161 +215,44 @@ DO NOT USE (card-mod): &card-mod-css
         ha-card.type-todo-list,
         ha-card.type-picture-elements
         {
-            /* TAILLE PROPORTIONNELLE DE LA BORDURE */
             border-image: url('/local/themes/piregwan-metal-slug/metal-horizontal.png') 80 fill; 
-            /* LARGEUR DES BORDURES A RESPECTER SANS DEFORMATION */
             border-image-width: 50px;
-            /* MARGE INTERIEURE */
-            border-width: 33px 17px 25px 17px; 
+            border-width: 10px 17px 17px 17px; 
         }
+        ha-card.type-todo-list, ha-card.type-custom-apexcharts-card {
+            border-width: 22px 17px 17px 17px; 
+        }
+        
         ha-card.type-custom-mini-graph-card {
             border-width: 33px 20px 25px 20px; 
         }
         
         ha-card.type-button  {
-            /* MARGE INTERIEURE */
-            border-width: 33px 27px 25px 27px; 
-            
-            # padding-top: 10px;
+            border-width: 47px 27px 25px 27px; 
         }
         ha-card.type-button span {
-            /* TAILLE PROPORTIONNELLE DE LA BORDURE */
             border-image: url('/local/themes/piregwan-metal-slug/bouton2.png') 8 fill; 
-            /* LARGEUR DES BORDURES A RESPECTER SANS DEFORMATION */
             border-image-width: 6px;
-            /* MARGE INTERIEURE */
             border-width: 1px; 
-            
-            display: block !important;
-            # min-height: 20px;
+            display: block ;
             padding: 8px 12px;
             margin-top: 10px;
-            
             filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.4));
-            
             color: var(--piregwan-yellow);
             text-transform: uppercase;
             font-family: "Bebas Neue", "Calibri", sans-serif ;
-            
             font-size: 23px;
             line-height: 23px;
             letter-spacing: -0.35px;
-
-            animation: blink-button 2200ms infinite alternate !important;
+            animation: blink-button 2000ms infinite alternate ;
         }
-
         ha-card.type-picture-elements, ha-card.type-picture-entity, ha-card.type-iframe  {
-            /* MARGE INTERIEURE */
             border-width: 50px 23px 27px 23px; 
         }
-        
-        
-        /* INCRUSTATION TITRE DE CARD*/
-        # ha-card::before {
-            # width: 80px;
-            # height: 30px;
-            # content : "**";
-            # border-radius: 5px;
-            # position: relative !important;
-            # top: 2px;
-            
-            # text-align: center !important; 
-            # color: var(--piregwan-yellow);
-            # margin-top: -35px; 
-            # z-index: 9999 !important;
-            # display: block !important;
-
-            # background-color: rgba(0,200,200,0.25) !important;
-        # }
-        
-        
-        
-
-
-
-
-
-        
-            
-        @-webkit-keyframes blink-button {
-          0% {
-            opacity: 1;
-          }
-          80% {
-            opacity: 0.90;
-          }
-          96% {
-            opacity: 0.60;
-          }
-          98% {
-            opacity: 0.25;
-          }
-          100% {
-            opacity: 0.10;
-          }
-        }        
-        
-        
-        
-
-
-        
-        
-        
         ha-card.type-custom-html-card {
-            # max-height: 1px; 
             padding: 0;
             margin: 0;
         }
-        
-        
-        
-        
-        
-
-        
-       
-                
-        
-        /* ALERTES */
-        .item-left {
-            # width: 75px; 
-            margin-right: 10px !important; 
-            # text-transform: none; 
-            
-        }
-        state-badge {
-            margin-left: 0px !important;
-            margin-top: 2px !important;
-            
-            width: 37px; 
-            padding-right: 10px !important;
-
-        }
-        #notifications {
-                display: flex;
-                flex-direction: column-reverse;
-        }
-        
-        
-        
-        /* CALENDRIERS */
-        .event-left  {
-            display: flex; 
-        }
-        .event-date-week-day {
-            order: 1;
-        }
-        .event-date-month {
-            order: 3;
-        }
-        .event-date-day {
-            order: 2;
-        }
-        
-            
-
-
 
         ha-card.type-todo-list, 
         ha-card.has-reader, 
@@ -462,18 +284,10 @@ DO NOT USE (card-mod): &card-mod-css
           
         }
         
-
-       
-        
-        
         ha-card > * {
           z-index: 2;
         }
         
-        
-        
-
-
 
         #TITRES DES CARDS
 
@@ -482,7 +296,6 @@ DO NOT USE (card-mod): &card-mod-css
           font-weight: 200;
 
           letter-spacing: 1.5px;
-          # text-shadow: 1px 1px 2px black;
           text-transform: uppercase;
           font-family: "Bebas Neue", "Calibri", sans-serif ;
           color: white;
@@ -503,8 +316,6 @@ DO NOT USE (card-mod): &card-mod-css
           padding-top: 18px;
 
           text-align: center; 
-          # color: black; 
-          # background-color: rgba(255,0,0,0); 
           border-style: solid;
           box-sizing: border-box; 
           filter: drop-shadow(1px 2px 1px rgba(0,0,0,0.45));
@@ -530,115 +341,181 @@ DO NOT USE (card-mod): &card-mod-css
           width: 100%; 
         }
         
+        ha-card > ha-state-icon {
+            transform: scale(1.35);
+        }
+
+
+        /* ALERTES */
+        .item-left {
+            margin-right: 10px !important; 
+        }
+        state-badge {
+            margin-left: 0px !important;
+            margin-top: 2px !important;
+            width: 37px; 
+            padding-right: 10px !important;
+        }
+        #notifications {
+                display: flex;
+                flex-direction: column-reverse;
+        }
+        
+        /* CALENDRIERS */
+        .event-left  {
+            display: flex; 
+        }
+        .event-date-week-day {
+            order: 1;
+        }
+        .event-date-month {
+            order: 3;
+        }
+        .event-date-day {
+            order: 2;
+        }
+
+
+        @-webkit-keyframes blink-button {
+          0% {
+            opacity: 1;
+          }
+          85% {
+            opacity: 0.85;
+          }
+          96% {
+            opacity: 0.50;
+          }
+          98% {
+            opacity: 0.25;
+          }
+          100% {
+            opacity: 0.10;
+          }
+        }        
+        
+        @-webkit-keyframes shiny {
+            0% { -webkit-transform: scale(0) rotate(0deg) ); opacity: 0.0; }
+            92% { -webkit-transform: scale(0) rotate(0deg) ; opacity: 0.15; }
+            93% { -webkit-transform: scale(4) rotate(0deg) ; opacity: 0.6; }
+            100% { -webkit-transform: scale(100) rotate(0deg) ; opacity: 0.0; }
+        }
+        
+        
+
+
 
 
 
 
     ha-markdown:
+      mod_reload: always
       $: |
 
-        h1, h2 {
-          font-size: 32px !important;
-          font-weight: 500 !important;
-          text-shadow: 0px 3px 0px black;
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif !important;
-          letter-spacing: 0px;
-          color: var(--piregwan-text-gray);
-        }
-        h1 {
-          text-align: center; 
-          color: var(--piregwan-yellow); 
-          border-style: solid;
-          box-sizing: border-box; 
-          filter: drop-shadow(1px 2px 1px rgba(0,0,0,0.45));
-          
-          border-image: url('/local/themes/piregwan-metal-slug/mini-cadre2-dore.png') 45 fill; 
-          border-image-width: 37px;
-          border-width: 29px 0 20px 0; 
-          text-shadow: 0px 3px 0px black !important;
-          z-index: 1000; 
-          
-          # margin-bottom: 0px;
-          margin: 0px !important; 
-          padding-top: 0px;
-          padding-bottom: 10px;
-          
-          padding-left: 21px !important;
-          padding-right: 21px !important;
-        }
-        h2 {
-          text-shadow: 0px 3px 0px black;
+        /* DEBUG EN COURS */
+        ha-card {
+            width: 100%;
+            background-color: rgba(0,0,0,0); 
+            box-sizing: border-box; 
+            filter: drop-shadow(1px 3px 2px rgba(44,41,31,1));
+            border-image: url('/local/themes/piregwan-metal-slug/metal-vertical.png') 80 fill !important; 
+            border-image-width: 50px !important;
+            border-width: 33px 10px 25px 10px !important; 
+            text-shadow: 0px 3px 0px black ;            
         }
 
-        h3 {
-          text-align: center;
-          position: relative;
-          width: auto;
-          display: block;
-          padding: 0;
-          padding-top: 0px; 
-          filter: none !important;
-        }
-        h3 b {
-          font-size: 45px;
-          font-family: "Bebas Neue", Calibri ;
-          text-transform: uppercase;
-          filter: none !important;
-          color: var(--piregwan-yellow); 
-          border-style: solid;
-          box-sizing: border-box; 
-          filter: drop-shadow(1px 3px 2px rgba(44,41,31,1));
-          border-image: url('/local/themes/piregwan-metal-slug/mini-cadre2-dore.png') 50 fill; 
-          border-image-width: 40px;
-          border-width: 24px 0 29px 0; 
-          text-shadow: 0px 3px 0px black !important;
-          z-index: 1000; 
-          padding-top: 5px;
-          padding-bottom: 0px;
-          padding-left: 30px;
-          padding-right: 30px;
-          letter-spacing: 1px;
-          width: 100% !important;
-          min-width: 100% !important;
-          display: inline-block;
-        }
-        # ha-markdown-element > pre  {
-          # font-size: 65px;
-          # font-weight: 200;
-        # }
+        :host {
         
-        ha-markdown-element > blockquote  {
-          text-transform: uppercase;
-          font-family: "Bebas Neue", "Calibri", sans-serif ;
-          font-size: 35px;
-          color: var(--piregwan-yellow);
-          filter: drop-shadow(1px 3px 2px rgba(44,41,31,1));
-          
-          padding:  24px 8px 0 8px  !important;
-          margin: 20px 0 0 0 !important;
-          
-          # background-color: rgba(0,200,220,0.04);
-          # border: 1px solid rgba(255,255,255,0.06); 
-          
-          border-radius: 6px;
-          display: inline-block !important;
-          height: 50px !important;
-          
-        }
-        ha-markdown-element > blockquote p {
-          padding: 0  !important;
-          margin: 0 0 0 0 !important;
-          width: 100% !important;
-          
-        }
+            p {
+              padding: 0;
+              margin: 0;
+            }
+            img  {
+              filter: drop-shadow(0px 0px 3px black);
+              border-radius: 7px;
+            }
+            blockquote {
+              text-transform: uppercase;
+              font-family: "Bebas Neue", "Calibri", sans-serif;
+              font-size: 35px;
+              color: var(--piregwan-yellow);
+              filter: drop-shadow(1px 3px 2px rgba(44,41,31,1));
+              
+              padding: 0 ;
+              margin: 18px 0 0 0 ;
+              display: inline-block;
+            }
+            blockquote p {
+              padding: 0  ;
+              margin: 0 ;
+              width: 100% ;
+            }
 
+            h1, h2 {
+              font-size: 32px ;
+              font-weight: 500 ;
+              text-transform: uppercase;
+              font-family: "Bebas Neue", "Calibri", sans-serif;
+              letter-spacing: 0px;
+              color: var(--piregwan-text-gray);
+            }
 
+            h1 {
+              text-align: center; 
+              color: var(--piregwan-yellow); 
+              border-style: solid;
+              box-sizing: border-box; 
+              border-image: url('/local/themes/piregwan-metal-slug/mini-cadre2-dore-2.png') 45 fill; 
+              border-image-width: 35px;
+              border-width: 24px 0 15px 0; 
+              text-shadow: 0px 3px 0px black ;
+              z-index: 1000; 
+              margin: 0 0 8px 0 ; 
+              padding-top: 0px;
+              padding-bottom: 10px;
+              padding-left: 18px ;
+              padding-right: 18px ;
+            }
+            
+            h2 {
+              text-shadow: 0px 3px 0px black;
+            }
 
-        ha-markdown-element > p > img, img  {
-          filter: drop-shadow(0px 0px 3px black);
-          border-radius: 7px;
-        }
+            h3 {
+              text-align: center;
+              position: relative;
+              width: auto;
+              display: block;
+              padding: 0;
+              padding-top: 0px; 
+              filter: none ;
+            }
+            h3 b {
+              font-size: 45px;
+              font-family: "Bebas Neue", Calibri ;
+              text-transform: uppercase;
+              filter: none ;
+              color: var(--piregwan-yellow); 
+              border-style: solid;
+              box-sizing: border-box; 
+              filter: drop-shadow(1px 3px 2px rgba(44,41,31,1));
+              border-image: url('/local/themes/piregwan-metal-slug/mini-cadre2-dore.png') 50 fill; 
+              border-image-width: 40px;
+              border-width: 24px 0 29px 0; 
+              text-shadow: 0px 3px 0px black ;
+              z-index: 1000; 
+              padding-top: 5px;
+              padding-bottom: 0px;
+              padding-left: 30px;
+              padding-right: 30px;
+              letter-spacing: 1px;
+              width: 100% ;
+              min-width: 100% ;
+              display: inline-block;
+            }
+            
+        }    
+            
 
 
 
@@ -780,13 +657,7 @@ DO NOT USE (card-mod): &card-mod-css
           border-image: url('/local/themes/piregwan-metal-slug/mini-cadre2-rouge.png') 48 fill; 
           border-image-width: 37px;
           border-width: 29px 0 20px 0; 
-
-          # margin-bottom: 0px !important;
-          # margin-top: 30px !important;
     }
-
-          
-    
 
     div.tooltip {
       color: black;
@@ -794,8 +665,6 @@ DO NOT USE (card-mod): &card-mod-css
       border-radius: 7px; 
       padding: 3px 15px; 
     }
-
-
 
 Piregwan Metal Slug:
   card-mod-theme: Piregwan Metal Slug
