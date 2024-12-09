@@ -151,7 +151,7 @@ DO NOT USE (customizations): &base
   mini-media-player-icon-color: var(--piregwan-text-gray)
   state-lock-unlocked-color: var(--piregwan-dark-red)
   sidebar-menu-button-text-color: white
-  mdc-typography-button-font-family: var(--piregwan-font)
+  mdc-typography-button-font-family: Bebas Neue
   mdc-typography-body2-font-family: var(--piregwan-font)
   mdc-theme-primary: white
   mdc-theme-secondary: var(--piregwan-orange)
@@ -188,6 +188,8 @@ DO NOT USE (card-mod): &card-mod-css
 
         /* CYBERPUNK CARDS */
         
+        
+
         ha-card {
             width: 100%;
             background-color: rgba(0,0,0,0); 
@@ -216,6 +218,9 @@ DO NOT USE (card-mod): &card-mod-css
             border-image-width: 50px;
             border-width: 10px 17px 17px 17px; 
         }
+
+        
+        
         
         ha-card.type-custom-atomic-calendar-revive {
             border-width: 22px 18px 7px 18px; 
@@ -263,19 +268,42 @@ DO NOT USE (card-mod): &card-mod-css
             margin: 0;
         }
 
+        
+        
         ha-card::before {
             content: "";
+            
+            height: 42px;
+
             width: 20px;
-            height: 20px;
-            background-color: var(--piregwan-red);
-            border-radius: 50%;
+            background: url('/local/themes/piregwan-metal-slug/diamond-yellow2.gif');
+
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat;
+            
             position: absolute !important;
-            top: -23px !important; 
+            top: -19px !important; 
             left: 50%;
             transform: translateX(-50%);
             z-index: 9999 !important; 
             pointer-events: none;
         }
+        
+        ha-card.type-custom-apexcharts-card::before
+        {
+            border-image-width: 0px !important;
+            position: absolute !important;
+            top: 0 !important;
+        }        
+        ha-card.type-button::before, 
+        ha-card.type-picture-entity::before, 
+        ha-card.type-custom-mini-graph-card::before,
+        ha-card.type-custom-button-card::before
+        {
+            display: none;
+            visibility: hidden;
+        }        
         
         #TITRES DES CARDS
 
@@ -397,6 +425,67 @@ DO NOT USE (card-mod): &card-mod-css
             order: 2;
         }
         
+        hr {
+            border-top: 1px solid var(--piregwan-text-gray) !important; 
+            border-bottom: 0px solid red !important; 
+        }
+        
+        ha-check-list-item .summary {
+            white-space: normal ;
+        }
+        
+        ha-check-list-item.multiline {
+          --check-list-item-graphic-margin-top: 30px !important;
+        }
+        
+        
+        
+        
+        /* TIMELINES */
+        .description p {
+            background: rgba(0,0,0, 0.75) !important; 
+            border-radius: 6px;
+            border: 1px solid rgba(255,255,255,0.17); 
+            padding: 0 4px; 
+            color: #a3a3a3;
+            margin: 0;
+            display: inline-block;
+        }
+        .description {
+            box-orient: inline-axis !important; 
+            -webkit-box-orient: inline-axis !important; 
+        }
+        
+        ha-check-list-item {
+            min-height: 40px !important; 
+            color: #EEE; 
+            padding: 0 0 0 4px;
+            margin: 6px 10px 3px 10px !important;
+            text-align: justify; 
+            
+            border-radius: 0px; 
+            # border: 1px solid rgba(255,255,255,0.2); 
+            
+            # background-color: rgba(0,0,0,0.20) !important; 
+            background: linear-gradient(to bottom, transparent calc(100% - 2px), #a3a3a3 100%) !important;
+        }
+        ha-check-list-item.multiline {
+            min-height: 35px !important; 
+            color: #EEE;
+            margin: 6px 10px;
+            
+            # background-color: rgba(0,0,0,0.20) !important; 
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         # @-webkit-keyframes shiny {
             # 0% { -webkit-transform: scale(0) rotate(0deg) ); opacity: 0.0; }
             # 92% { -webkit-transform: scale(0) rotate(0deg) ; opacity: 0.15; }
@@ -421,6 +510,8 @@ DO NOT USE (card-mod): &card-mod-css
 
         :host {
         
+         
+
             p {
               padding: 0;
               margin: 0;
@@ -429,13 +520,21 @@ DO NOT USE (card-mod): &card-mod-css
               filter: drop-shadow(0px 0px 3px black);
               border-radius: 7px;
             }
-            h2 img {
+            em img {
               filter: drop-shadow(0px 3px 1px black);
               border-radius: 50%;
-              width: 125px;
-              padding: 0;
-              margin: 0;
+              width: 160px;
+              # padding: 0;
+              # margin: 0;
               border: 3px solid var(--piregwan-yellow);
+            }
+            
+            em em {
+                color: #454545 !important;
+                background-color: #080808;
+                padding: 0px 7px 1px 7px; 
+                border-radius: 15px;
+                text-shadow: none;
             }
             
             
@@ -452,10 +551,10 @@ DO NOT USE (card-mod): &card-mod-css
               margin: 18px 0 0 0 ;
               display: inline-block;
 
-              font-size: 31px;
+              font-size: 30px;
               letter-spacing: -0.40px;
               font-weight: 500 ;
-              line-height: 31px;
+              line-height: 30px;
             }
             blockquote p {
               padding: 0  ;
@@ -464,11 +563,11 @@ DO NOT USE (card-mod): &card-mod-css
             }
 
             h1, h2 {
-              font-size: 31px ;
+              font-size: 30px ;
               font-weight: 500 ;
               text-transform: uppercase;
               font-family: "Bebas Neue", "Roboto Bold", "Roboto";
-              letter-spacing: 0px;
+              letter-spacing: -0.2px;
               color: var(--piregwan-yellow); 
             }
 
@@ -489,7 +588,7 @@ DO NOT USE (card-mod): &card-mod-css
             }
             h2 {
               font-size: 26px ;
-              letter-spacing: 0.35px;
+              letter-spacing: 0.15px;
               text-shadow: 0px 3px 0px black;
             }
 
@@ -669,6 +768,15 @@ DO NOT USE (card-mod): &card-mod-css
           border-image-width: 37px;
           border-width: 29px 0 20px 0; 
     }
+    
+    
+    
+    a:nth-child(1) paper-icon-item, a:nth-child(2) paper-icon-item, a:nth-child(3) paper-icon-item {
+          
+          # filter: hue-rotate(-10deg) saturate(1.5); /* Plus saturé pour accentuer le rouge */
+          
+    }
+    
 
     div.tooltip {
       color: black;
