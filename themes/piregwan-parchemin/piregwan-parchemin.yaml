@@ -7,6 +7,8 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-red: "#FF4444"
   piregwan-gray: "#1C1C1C"
   
+  piregwan-lettrine: "#151515"
+  
   # USE THIS COLOR TO CUSTOMIZE NIGHT IN APEX CHARTS
   piregwan-nuit: "rgba(150,150,150,0.16)"
 
@@ -432,6 +434,72 @@ DO NOT USE (card-mod): &card-mod-css
 
 
         
+        
+        
+        
+        
+        
+        ha-check-list-item .summary {
+            white-space: normal ;
+        }
+        
+        ha-check-list-item.multiline {
+          --check-list-item-graphic-margin-top: 30px !important;
+        }
+        
+        
+        /* TIMELINES */
+        .description p {
+            background: rgba(0,0,0, 0.75) !important; 
+            border-radius: 6px;
+            border: 1px solid rgba(255,255,255,0.17); 
+            padding: 0 4px; 
+            
+            color: #a3a3a3;
+            color: white;
+            
+            margin: 0;
+            display: inline-block;
+        }
+        .description {
+            box-orient: inline-axis !important; 
+            -webkit-box-orient: inline-axis !important; 
+            margin-top: 13px; 
+            
+            font-family: "Gabriola";
+            font-size: 17px !important; 
+            font-style: italic;
+            letter-spacing: 0.25px;
+        }
+        
+        ha-check-list-item {
+            min-height: 40px !important; 
+            
+            # color: #EEE; 
+            color: var(--piregwan-text-gray);
+            text-align: justify; 
+            
+            padding: 0 18px 0 4px;
+            margin: 6px 10px 3px 10px !important;
+            
+            border-radius: 0px; 
+            background: linear-gradient(to bottom, transparent calc(100% - 2px), #a3a3a3 100%) !important;
+            
+            # font-style: italic;
+            letter-spacing: -0.25px;
+            font-weight: 550; 
+            line-height: 24px;
+        }
+        ha-check-list-item.multiline {
+            min-height: 35px !important; 
+            # color: #EEE;
+            margin: 6px 10px;
+            
+            # background-color: rgba(0,0,0,0.20) !important; 
+        }
+        
+        
+                
         
     
 

@@ -8,6 +8,8 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-gray: "#1C1C1C"
   
   piregwan-blue: "#5C7AEA"
+  
+  piregwan-lettrine: "#FFFFFF"
 
   piregwan-red: "#ff4444"
   piregwan-red-50: rgba(255,68,68,0.55)
@@ -270,25 +272,31 @@ DO NOT USE (card-mod): &card-mod-css
 
         
         
-        ha-card::before {
-            content: "";
+        /* ICI LE DIAMANT QUI FLOTTE AU MILIEU */
+        # ha-card::before {
+            # content: "";
             
-            height: 42px;
+            # height: 42px;
 
-            width: 20px;
-            background: url('/local/themes/piregwan-metal-slug/diamond-yellow2.gif');
+            # width: 20px;
+            # background: url('/local/themes/piregwan-metal-slug/diamond-yellow2.gif');
 
-            background-size: cover; 
-            background-position: center;
-            background-repeat: no-repeat;
+            # background-size: cover; 
+            # background-position: center;
+            # background-repeat: no-repeat;
             
-            position: absolute !important;
-            top: -19px !important; 
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 9999 !important; 
-            pointer-events: none;
-        }
+            # position: absolute !important;
+            # top: -19px !important; 
+            # left: 50%;
+            # transform: translateX(-50%);
+            # z-index: 9999 !important; 
+            # pointer-events: none;
+        # }
+        
+        
+        
+        
+        
         
         ha-card.type-custom-apexcharts-card::before
         {
@@ -447,7 +455,10 @@ DO NOT USE (card-mod): &card-mod-css
             border-radius: 6px;
             border: 1px solid rgba(255,255,255,0.17); 
             padding: 0 4px; 
+            
             color: #a3a3a3;
+            color: white;
+            
             margin: 0;
             display: inline-block;
         }
@@ -458,10 +469,13 @@ DO NOT USE (card-mod): &card-mod-css
         
         ha-check-list-item {
             min-height: 40px !important; 
-            color: #EEE; 
+            
+            # color: #EEE; 
+            color: var(--piregwan-text-gray);
+            text-align: justify; 
+            
             padding: 0 0 0 4px;
             margin: 6px 10px 3px 10px !important;
-            text-align: justify; 
             
             border-radius: 0px; 
             # border: 1px solid rgba(255,255,255,0.2); 
@@ -471,7 +485,7 @@ DO NOT USE (card-mod): &card-mod-css
         }
         ha-check-list-item.multiline {
             min-height: 35px !important; 
-            color: #EEE;
+            # color: #EEE;
             margin: 6px 10px;
             
             # background-color: rgba(0,0,0,0.20) !important; 
@@ -510,8 +524,6 @@ DO NOT USE (card-mod): &card-mod-css
 
         :host {
         
-         
-
             p {
               padding: 0;
               margin: 0;
@@ -520,26 +532,66 @@ DO NOT USE (card-mod): &card-mod-css
               filter: drop-shadow(0px 0px 3px black);
               border-radius: 7px;
             }
+            
+            
+
+            
+            
+
+
+
+
+
+            # PROFILS
+            
+            table {
+               width: 100%; 
+            }
+            td {
+                padding: 0;
+            }
+            
+            pre {
+                padding: 0 0px 14px 0px !important;
+                margin: 0px !important;
+                white-space: nowrap;
+                height: 100% !important;
+                width: 100% !important;
+
+                border-image: url('/local/themes/piregwan-metal-slug/bouton2.png') 8 fill; 
+                border-image-width: 6px;
+                border-width: 1px; 
+                display: block ;
+                padding: 8px 12px;
+                margin-top: 10px;
+                color: var(--piregwan-yellow);
+            }
+
             em img {
               filter: drop-shadow(0px 3px 1px black);
               border-radius: 50%;
               width: 160px;
-              # padding: 0;
-              # margin: 0;
-              border: 3px solid var(--piregwan-yellow);
+              border: 2px solid var(--piregwan-yellow);
+              margin-top: -18px !important; 
             }
             
             em em {
-                color: #454545 !important;
-                background-color: #080808;
-                padding: 0px 7px 1px 7px; 
-                border-radius: 15px;
                 text-shadow: none;
+                line-height: 21px;
+                background: rgba(0,0,0, 0.75) !important; 
+                border-radius: 6px;
+                border: 1px solid rgba(255,255,255,0.17); 
+                padding: 0 6px; 
+                color: white;
+                font-size: 12px; 
+                margin: 0;
+                display: inline-block;
+                font-style: normal;
             }
             
-            
-            
-            
+
+
+
             
             
             blockquote {
@@ -551,7 +603,7 @@ DO NOT USE (card-mod): &card-mod-css
               margin: 18px 0 0 0 ;
               display: inline-block;
 
-              font-size: 30px;
+              font-size: 23.5px;
               letter-spacing: -0.40px;
               font-weight: 500 ;
               line-height: 30px;
