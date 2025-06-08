@@ -6,6 +6,48 @@
 ![B   W](https://github.com/Krakoukas73/ha-dark-light/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
 
 
+<h1>Installation</h1>
+
+<b>Manual</b> :
+
+- Copy all directories in /themes/ Home Assistant folder
+- Restart Home Assistant
+- Choose a theme (<i>do not use base themes</i>)
+
+<b>OR use HACS</b> :
+
+<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=Krakoukas73&repository=home-assistant-dark-light-theme&category=theme"><img src="https://my.home-assistant.io/badges/hacs_repository.svg"></a>
+
+<h2>Special transparent theme</h2>
+
+<i>(for picture-only, without border or background)</i>
+
+Use <b>markdown card</b>, add picture and select "_Transparent_" theme :
+
+![picture-light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/e1e926dd-6295-4fd7-afb1-02c6fb5584f3)
+
+![picture-dark](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/d4111762-be78-45bd-a8a4-d5ff478bb2ed)
+
+See wiki for more **title features** and **fun tricks** :
+
+![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/adfd0149-c279-44d9-a8c7-b387206c2131)
+
+<h1>Troubleshooting</h1>
+
+- Strange glitches sometimes
+- TTF Fonts are not included (Roboto, Bebas Neue). You should add your own fonts in Home Assistant
+- Cancel glow/animate/shadow CSS effects (consuming too much CPU even with modern devices)
+
+![glow](https://github.com/Krakoukas73/home-assistant-dark-light/assets/54374596/ddba224d-51ed-4ca6-96d8-017dc35e6ce1)
+
+<h1> Work in progress</h1>
+
+- Animated Glassmorphism (youtube)
+
+[![Watch the video](https://img.youtube.com/vi/mXbC1O6ndGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=mXbC1O6ndGA)
+
+<h1>Themes</h1>
+
 <h1>Metal Slug</h1>
 
 _Fully compatible and customisable with all card sizes and custom cards_
@@ -161,45 +203,6 @@ _Fully compatible and customisable with all card sizes and custom cards_
 ![image](https://github.com/user-attachments/assets/1af45f74-f423-4099-953b-b415c996f3c7)
 
 
-<h1>Installation</h1>
-
-<b>Manual</b> :
-
-- Copy all directories in /themes/ Home Assistant folder
-- Restart Home Assistant
-- Choose a theme (<i>do not use base themes</i>)
-
-<b>OR use HACS</b> :
-
-<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=Krakoukas73&repository=home-assistant-dark-light-theme&category=theme"><img src="https://my.home-assistant.io/badges/hacs_repository.svg"></a>
-
-<h2>Special transparent theme</h2>
-
-<i>(for picture-only, without border or background)</i>
-
-Use <b>markdown card</b>, add picture and select "_Transparent_" theme :
-
-![picture-light](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/e1e926dd-6295-4fd7-afb1-02c6fb5584f3)
-
-![picture-dark](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/d4111762-be78-45bd-a8a4-d5ff478bb2ed)
-
-See wiki for more **title features** and **fun tricks** :
-
-![image](https://github.com/Krakoukas73/home-assistant-dark-light-theme/assets/54374596/adfd0149-c279-44d9-a8c7-b387206c2131)
-
-<h1>Troubleshooting</h1>
-
-- Strange glitches sometimes
-- TTF Fonts are not included (Roboto, Bebas Neue). You should add your own fonts in Home Assistant
-- Cancel glow/animate/shadow CSS effects (consuming too much CPU even with modern devices)
-
-![glow](https://github.com/Krakoukas73/home-assistant-dark-light/assets/54374596/ddba224d-51ed-4ca6-96d8-017dc35e6ce1)
-
-<h1> Work in progress</h1>
-
-- Animated Glassmorphism (youtube)
-
-[![Watch the video](https://img.youtube.com/vi/mXbC1O6ndGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=mXbC1O6ndGA)
 
 <h1>License</h1>
   
