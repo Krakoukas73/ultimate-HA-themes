@@ -10,13 +10,9 @@
 
 <b>Manual</b> :
 
-- Copy all directories in /themes/ Home Assistant folder
+- Copy all directories in your themes Home Assistant folder (/www/themes/)
 - Restart Home Assistant
 - Choose a theme (<i>do not use base themes</i>)
-
-<b>OR use HACS</b> :
-
-<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=Krakoukas73&repository=home-assistant-dark-light-theme&category=theme"><img src="https://my.home-assistant.io/badges/hacs_repository.svg"></a>
 
 <h2>Special transparent theme</h2>
 
