@@ -37,21 +37,21 @@ DO NOT USE (colors): &piregwan-colors
   piregwan-font: Calibri
   
   # Animated icons
-  weather-icon-clear-night: url("/hacsfiles/themes/piregwan-azure/clear-night.svg")
-  weather-icon-cloudy: url("/hacsfiles/themes/piregwan-azure/cloudy.svg")
-  weather-icon-fog: url("/hacsfiles/themes/piregwan-azure/fog.svg")
-  weather-icon-lightning: url("/hacsfiles/themes/piregwan-azure/lightning.svg")
-  weather-icon-lightning-rainy: url("/hacsfiles/themes/piregwan-azure/lightning-rainy.svg")
-  weather-icon-partlycloudy: url("/hacsfiles/themes/piregwan-azure/partlycloudy.svg")
-  weather-icon-pouring: url("/hacsfiles/themes/piregwan-azure/pouring.svg")
-  weather-icon-rainy: url("/hacsfiles/themes/piregwan-azure/rainy.svg")
-  weather-icon-hail: url("/hacsfiles/themes/piregwan-azure/hail.svg")
-  weather-icon-snowy: url("/hacsfiles/themes/piregwan-azure/snowy.svg")
-  weather-icon-snowy-rainy: url("/hacsfiles/themes/piregwan-azure/snowy-rainy.svg")
-  weather-icon-sunny: url("/hacsfiles/themes/piregwan-azure/sunny.svg")
-  weather-icon-windy: url("/hacsfiles/themes/piregwan-azure/windy.svg")
-  weather-icon-windy-variant: url("/hacsfiles/themes/piregwan-azure/windy-variant.svg")
-  weather-icon-exceptional: url("/hacsfiles/themes/piregwan-azure/exceptional.svg")  
+  weather-icon-clear-night: url("/local/themes/piregwan-azure/clear-night.svg")
+  weather-icon-cloudy: url("/local/themes/piregwan-azure/cloudy.svg")
+  weather-icon-fog: url("/local/themes/piregwan-azure/fog.svg")
+  weather-icon-lightning: url("/local/themes/piregwan-azure/lightning.svg")
+  weather-icon-lightning-rainy: url("/local/themes/piregwan-azure/lightning-rainy.svg")
+  weather-icon-partlycloudy: url("/local/themes/piregwan-azure/partlycloudy.svg")
+  weather-icon-pouring: url("/local/themes/piregwan-azure/pouring.svg")
+  weather-icon-rainy: url("/local/themes/piregwan-azure/rainy.svg")
+  weather-icon-hail: url("/local/themes/piregwan-azure/hail.svg")
+  weather-icon-snowy: url("/local/themes/piregwan-azure/snowy.svg")
+  weather-icon-snowy-rainy: url("/local/themes/piregwan-azure/snowy-rainy.svg")
+  weather-icon-sunny: url("/local/themes/piregwan-azure/sunny.svg")
+  weather-icon-windy: url("/local/themes/piregwan-azure/windy.svg")
+  weather-icon-windy-variant: url("/local/themes/piregwan-azure/windy-variant.svg")
+  weather-icon-exceptional: url("/local/themes/piregwan-azure/exceptional.svg")  
 
 
   
