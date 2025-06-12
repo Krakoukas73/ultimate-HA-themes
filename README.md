@@ -11,6 +11,7 @@
 
 ![image](https://github.com/user-attachments/assets/1713a85f-e452-4bc6-956e-0327af758f01)
 
+![image](https://github.com/user-attachments/assets/6879bcd0-80d6-487c-b980-2aa194d93d4c)
 
 <h1>Installation</h1>
 
