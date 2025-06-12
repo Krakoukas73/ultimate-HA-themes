@@ -3,7 +3,13 @@
 
 <b>Various light & overloaded themes</b> for <a href="https://www.home-assistant.io/">Home Assistant</a> using CSS, SVG and awesome <a href="https://github.com/thomasloven/lovelace-card-mod">Card-mod</a> from Thomas Lovén
 
+![HA-themes-Dark-et-Light-copy-4](https://github.com/user-attachments/assets/31d30c39-f7cc-407e-bbcf-f7bce006d109)
+
 ![B   W](https://github.com/Krakoukas73/ultimate-HA-themes/assets/54374596/058d1dde-a932-4b28-81a4-61eccd8886c6)
+
+![image](https://github.com/user-attachments/assets/50a64d43-a93f-4cde-8c8b-d8b51a87c8c1)
+
+![image](https://github.com/user-attachments/assets/1713a85f-e452-4bc6-956e-0327af758f01)
 
 
 <h1>Installation</h1>
