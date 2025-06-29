@@ -528,7 +528,7 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      background: url('/hacsfiles/themes/piregwan-rounded-1/transparent.png');      
+      background: url('/local/themes/piregwan-rounded-1/transparent.png');      
     }   
 
 
@@ -598,7 +598,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        background: url('/hacsfiles/themes/piregwan-rounded-1/transparent.png');      
+        background: url('/local/themes/piregwan-rounded-1/transparent.png');      
     }
     .menu .title {
       visibility: hidden;

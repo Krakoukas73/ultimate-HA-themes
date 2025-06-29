@@ -390,7 +390,7 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      background: url('/hacsfiles/themes/piregwan-light/transparent.png');      
+      background: url('/local/themes/piregwan-light/transparent.png');      
     }   
 
 
@@ -438,7 +438,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        background: url('/hacsfiles/themes/piregwan-light/transparent.png');      
+        background: url('/local/themes/piregwan-light/transparent.png');      
     }
     .menu .title {
       visibility: hidden;

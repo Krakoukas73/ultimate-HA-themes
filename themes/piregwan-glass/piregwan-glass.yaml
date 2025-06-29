@@ -65,7 +65,7 @@ DO NOT USE (colors): &piregwan-colors
 
 DO NOT USE (customizations): &base 
 
-  lovelace-background: url('/hacsfiles/themes/piregwan-glass/abstract.jpg') fixed center/cover no-repeat
+  lovelace-background: url('/local/themes/piregwan-glass/abstract.jpg') fixed center/cover no-repeat
   
 
   switch-checked-button-color: var(--piregwan-red)
@@ -520,7 +520,7 @@ DO NOT USE (card-mod): &card-mod-css
   card-mod-sidebar: &card-mod-sidebar |
     :host {
       content: "";
-      background: url('/hacsfiles/themes/piregwan-glass/transparent.png');      
+      background: url('/local/themes/piregwan-glass/transparent.png');      
     }   
 
 
@@ -573,7 +573,7 @@ DO NOT USE (card-mod): &card-mod-css
     
     
     .menu {
-        background: url('/hacsfiles/themes/piregwan-glass/transparent.png');      
+        background: url('/local/themes/piregwan-glass/transparent.png');      
     }
     .menu .title {
       visibility: hidden;
